@@ -19,7 +19,7 @@ int main()
    
     Ret=Addition(A,B);
    
-    printf("%d\n",Ret);
+    printf("Addition is :%d\n",Ret);
 
     return 0;
 }
