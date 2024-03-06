@@ -10,6 +10,11 @@ int main()
     printf("First element is :%d\n",Arr[0]);
     printf("Second element is :%d\n",Arr[1]);
     printf("Third element is :%d\n",Arr[2]); 
+
+       printf("%d\n",Arr[2]);
+       printf("%d\n",*(Arr+2));
+       printf("%d\n",*(2+Arr));
+       printf("%d\n",2[Arr]);
        
     return 0;
 }
