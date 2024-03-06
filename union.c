@@ -26,5 +26,10 @@ int main()
     printf("Size of union is: %d\n",sizeof(hobj));
     printf("Size of structure is :%d\n",sizeof(dobj));
 
+    hobj.no=11;
+    printf("%d\n",hobj.no);
+
+    hobj.data=21;
+    printf("%d\n",hobj.data);
     return 0;
 }
