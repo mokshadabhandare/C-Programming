@@ -9,6 +9,7 @@ void Marvellous()
      printf("From Marvellous value of no is :%d\n",no);
      printf("From Marvellous value of i is :%d\n",i);
      printf("From Marvellous value of x is :%d\n",x);
+
 }   
 
 int main()
@@ -17,8 +18,6 @@ int main()
 
     printf("From main value of no is :%d\n",no);
     printf("From main value of x is :%d\n",x);
-
-    Marvellous();
 
     return 0;
 }

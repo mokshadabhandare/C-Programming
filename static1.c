@@ -2,7 +2,7 @@
 
 void Marvellous()
 {
-    int i=10;
+    static int i=10;
     i++;
     printf("Value of x is :%d\n",i);
 }
