@@ -45,3 +45,20 @@ int main()
     cout<<"Value of x using object is : "<<obj1.X<<"\n";
     return 0;
 }
+
+
+/*
+output
+
+Inside Base constructor
+Inside Derived constructor
+Size of object is : 16
+11
+21
+51
+101
+Inside Base Fun
+Inside Derived gun
+Inside Derived destructor
+Inside Base destructor
+*/
