@@ -9,14 +9,14 @@ class Demo
 
     Demo()
     {
-      this->No1=10;
-      this->No2=20;
+      No1=10;
+      No2=20;
     }
     void Fun()  //non static behaviour
     {
         cout<<"Inside Fun\n";
         cout<<No1<<"\n";
-        cout<<X;
+        cout<<X<<"\n";
     }
     static void Gun()  //static behaviour
     {
@@ -41,5 +41,7 @@ int main()
     obj1.Fun();
     obj2.Fun();
 
+    obj1.Gun();
+    cout<<"Value of x using object is : "<<obj1.X<<"\n";
     return 0;
 }
