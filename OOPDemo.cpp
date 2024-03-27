@@ -49,4 +49,8 @@ int main()
     cout<<"Substration is :"<<ret<<"\n";
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ecdb74c5068d222f0387223f2ece56e150105bc8
