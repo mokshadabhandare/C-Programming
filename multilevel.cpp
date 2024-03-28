@@ -40,12 +40,14 @@ class Derived : public Base
     cout<<"Inside Derived gun\n";
    }
 };
+
 class DerivedX : public Derived
 {
     public :
        int P;
        DerivedX()
        {
+        P=111;
         cout<<"Inside DerivedX Constructor\n";
        }
        ~DerivedX()
@@ -57,18 +59,21 @@ class DerivedX : public Derived
         cout<<"Inside DerivedX Sun\n";
        }
 };
+
 int main()
 {
-    Derived dobj;
+    DerivedX dobj;
     cout<<"Size of object is : "<<sizeof(dobj)<<"\n";
 
     cout<<dobj.A<<"\n";
     cout<<dobj.B<<"\n";
     cout<<dobj.X<<"\n";
     cout<<dobj.Y<<"\n";
+    cout<<dobj.P<<"\n";
 
     dobj.Fun();
     dobj.Gun();
+    dobj.Sun();
 
     return 0;
 }
