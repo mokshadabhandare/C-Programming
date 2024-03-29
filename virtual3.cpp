@@ -37,18 +37,13 @@ class Derived :public Base
 };
 int main()
 {
-    Base bobj;
     Derived dobj;
+    Base *bp=&dobj;
 
-    Base *bp=NULL;
-    Derived *dp=NULL;
-
-    bp=&bobj;   //Nocasting
-    dp=&dobj;   //Nocasting
-
-    bp=&dobj;   //Upcasting
-    ///dp=&bobj;   //Downcasting (Not allowed)
+    bp->Fun();
+    bp->Gun();
+    bp->Sun();
+    bp->Run();
 
     return 0;
 }
-
