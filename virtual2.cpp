@@ -40,14 +40,14 @@ int main()
     Base bobj;
     Derived dobj;
 
-    Base *bp=NULL;
-    Derived *dp=NULL;
+    bobj.Fun();  
+    bobj.Gun();
+    bobj.Sun();
 
-    bp=&bobj;   //Nocasting
-    dp=&dobj;   //Nocasting
-
-    bp=&dobj;   //Upcasting
-    ///dp=&bobj;   //Downcasting (Not allowed)
+    dobj.Fun();
+    dobj.Gun();
+    dobj.Sun();
+    dobj.Run();
 
     return 0;
 }
