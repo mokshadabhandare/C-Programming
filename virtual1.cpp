@@ -39,5 +39,15 @@ int main()
 {
     Base bobj;
     Derived dobj;
+
+    bobj.Fun();  
+    bobj.Gun();
+    bobj.Sun();
+
+    dobj.Fun();
+    dobj.Gun();
+    dobj.Sun();
+    dobj.Run();
+
     return 0;
 }
