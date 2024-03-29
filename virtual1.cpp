@@ -22,21 +22,22 @@ class Derived :public Base
 {
     public :
        int X,Y;
-       void Gun()
+       void Gun() //4000
        {
         cout<<"Derived Gun\n";
        }
-       void Sun()
+       void Sun()  //5000
        {
         cout<<"Derived Sun\n";
        }
-       void Run()
+       void Run()  //6000
        {
         cout<<"Derived Run\n";
        }
 };
 int main()
 {
-
+    Base bobj;
+    Derived dobj;
     return 0;
 }
