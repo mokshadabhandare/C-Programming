@@ -11,11 +11,11 @@ class Base
       }
       void Gun() //2000
       {
-        cout<<"Inside Gun\n";
+        cout<<"Base Gun\n";
       }
       void Sun() //3000
       {
-        cout<<"Inside Sun\n";
+        cout<<"Base Sun\n";
       }
 };
 class Derived :public Base
