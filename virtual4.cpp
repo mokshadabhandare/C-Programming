@@ -9,7 +9,7 @@ class Base
       {
         cout<<"Base Fun\n";
       }
-      void Gun() //2000
+      virtual void Gun() //2000
       {
         cout<<"Base Gun\n";
       }
@@ -17,20 +17,25 @@ class Base
       {
         cout<<"Base Sun\n";
       }
+      virtual void Mun()
+      {
+        cout<<"Base Mun\n";
+
+      }
 };
 class Derived :public Base
 {
     public :
        int X,Y;
-       void Gun() //4000
+       virtual void Gun() //4000
        {
         cout<<"Derived Gun\n";
        }
-       void Sun()  //5000
+       virtual void Sun()  //5000
        {
         cout<<"Derived Sun\n";
        }
-       void Run()  //6000
+       virtual void Run()  //6000
        {
         cout<<"Derived Run\n";
        }
@@ -40,10 +45,9 @@ int main()
     Derived dobj;
     Base *bp=&dobj;
 
-    bp->Fun();
-    bp->Gun();
-    bp->Sun();
-   // bp->Run(); not allowed
+    cout<<"Size of base class object is :"<<sizeof(Base)<<"\n";
+    cout<<"Size of derived class object is :"<<sizeof(Derived)<<"\n";
+
 
     return 0;
 }
