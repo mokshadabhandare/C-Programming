@@ -45,9 +45,14 @@ int main()
     Derived dobj;
     Base *bp=&dobj;
 
-    cout<<"Size of base class object is :"<<sizeof(Base)<<"\n";
-    cout<<"Size of derived class object is :"<<sizeof(Derived)<<"\n";
+    //cout<<"Size of base class object is :"<<sizeof(Base)<<"\n";
+    //cout<<"Size of derived class object is :"<<sizeof(Derived)<<"\n";
 
+    bp->Fun(); //base fun
+    bp->Gun(); //derived gun
+    bp->Sun(); //base sun
+    bp->Mun(); //base mun
+   // bp->Run(); error
 
     return 0;
 }
