@@ -3,7 +3,7 @@ using namespace std;
 
 class Base 
 {
-    public :
+    public:
       int A,B;
       void Fun() //1000
       {
@@ -20,9 +20,8 @@ class Base
       virtual void Mun()
       {
         cout<<"Base Mun\n";
-
       }
-};
+}:
 class Derived :public Base
 {
     public :
