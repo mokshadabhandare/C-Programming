@@ -21,7 +21,7 @@ class Base
       {
         cout<<"Base Mun\n";
       }
-}:
+};
 class Derived :public Base
 {
     public :
