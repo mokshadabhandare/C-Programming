@@ -43,7 +43,7 @@ int main()
     bp->Fun();
     bp->Gun();
     bp->Sun();
-   // bp->Run(); not allowed
+   // bp->Run(); NA
 
     return 0;
 }
