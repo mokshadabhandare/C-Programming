@@ -51,7 +51,8 @@ int main()
 output
 
 Inside Base constructor
-Inside Derived constructor
+Inside Derived constructor05+
+
 Size of object is : 16
 11
 21
