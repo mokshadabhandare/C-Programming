@@ -44,8 +44,14 @@ class Derived:public Base
 
 int main()
 {
+    //Base bobj;
     Derived dobj;
     Base *bp=&dobj;
+
+    cout<<bp->Addition(10,11)<<"\n"; //base addition
+    cout<<bp->Substraction(10,11)<<"\n"; //derived substraction
+    cout<<bp->Multiplication(10,11)<<"\n"; //derived multiplication
+   // cout<<bp->Division(100,10)<<"\n"; //
 
     return 0;
 }
