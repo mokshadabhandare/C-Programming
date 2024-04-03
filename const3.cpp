@@ -23,7 +23,14 @@ class Demo
 
 int main()
 {
-   
+   Demo obj1;
+   const Demo obj2;
+
+   obj1.fun();
+   obj1.gun();
+
+  // obj2.fun();
+   obj2.gun();
     
     return 0;
 }
