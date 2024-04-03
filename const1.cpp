@@ -18,9 +18,9 @@ class Demo
         int No1=11;
         const int No2=21;  //constant local variable
        i++; //A
-       j++; //NA
+     //  j++; //NA
        No1++; //A
-       No2++;  //NA
+      // No2++;  //NA
     }
 };
 int main()
@@ -32,9 +32,9 @@ int main()
 
     obj1.X++;  //A
     obj1.Y++;  //A
-    obj2.X++;  //NA
-    obj2.Y++;  //NA
-    A++;       //NA
+   // obj2.X++;  //NA
+   // obj2.Y++;  //NA
+   // A++;       //NA
     B++;       //A
 
     return 0;
