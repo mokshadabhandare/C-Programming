@@ -17,11 +17,25 @@ class Demo
     {
         int No1=11;
         const int No2=21;  //constant local variable
+       i++; //A
+       j++; //NA
+       No1++; //A
+       No2++;  //NA
     }
 };
 int main()
 {
     Demo obj1;
     const Demo obj2; //constant object
+
+    obj1.fun(51,101);
+
+    obj1.X++;  //A
+    obj1.Y++;  //A
+    obj2.X++;  //NA
+    obj2.Y++;  //NA
+    A++;       //NA
+    B++;       //A
+
     return 0;
 }
