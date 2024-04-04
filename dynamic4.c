@@ -6,12 +6,9 @@ int main()
 
     int *ptr=NULL;
 
-    ptr= (int *)malloc(5 * sizeof(int));
-     
-     //use the memory
-
     ptr=(int *)realloc(ptr,10 *sizeof(int));
-    free(ptr);
+
+    ptr=(int*)realloc(ptr,0);
     
     return 0;
 }
