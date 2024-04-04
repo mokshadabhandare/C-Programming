@@ -6,9 +6,9 @@ int main()
 
     int *ptr=NULL;
 
-    ptr=(int *)realloc(ptr,10 *sizeof(int));
+    ptr=(int *)realloc(NULL,10 *sizeof(int));
 
-    ptr=(int*)realloc(ptr,0);
+    ptr=(int*)realloc(ptr,0);//free
     
     return 0;
 }
