@@ -10,7 +10,7 @@ int main()
     printf("Enter number of elements:\n");
     scanf("%d",&Size);
 
-    ptr= (int *)malloc(Size * sizeof(int));
+    ptr= (int *)calloc(Size , sizeof(int));
      
      //use the memory
 
