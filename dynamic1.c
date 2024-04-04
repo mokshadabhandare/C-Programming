@@ -10,7 +10,8 @@ int main()
     printf("Enter number of elements:\n");
     scanf("%d",&Size);
 
-    ptr=malloc(Size * sizeof(int));
-
+    ptr= (int *)malloc(Size * sizeof(int));
+     
+    free(ptr);
     return 0;
 }
