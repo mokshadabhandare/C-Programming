@@ -24,5 +24,17 @@ class Demo
 int main()
 {
     Demo obj1;
+
+    Demo *p=new Demo;
+    //Demo *p=(Demo *)malloc(sizeof(Demo));
+    
+    p->fun();
+
+    cout<<p->A<<"\n";
+    cout<<p->B<<"\n";
+
+    delete p;
+    //free(p);
+
     return 0;
 }
