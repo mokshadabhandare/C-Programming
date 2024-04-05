@@ -23,5 +23,10 @@ int main()
     printf("%c\n",*(char*)vp);
     vp=&i;
     printf("%d\n",*(int *)vp);
+    vp=&f;
+    printf("%f\n",*(float *)vp);
+    vp=&d;
+    printf("%f\n",*(double *)vp);
+
     return 0;
 }
