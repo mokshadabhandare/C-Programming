@@ -18,6 +18,7 @@ class Demo
         k=30;
     }
     friend void fun();
+    friend void Gun();
 };
 void fun()
 {
@@ -25,7 +26,6 @@ void fun()
    cout<<obj.i<<"\n";
    cout<<obj.j<<"\n";
    cout<<obj.k<<"\n";
-
 }
 int main()
 {
