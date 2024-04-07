@@ -29,7 +29,7 @@ class Demo
 
 void Hello::fun()
 {
-    Demo obj;
+     Demo obj;
    cout<<obj.i<<"\n";
    cout<<obj.j<<"\n";
    cout<<obj.k<<"\n";
