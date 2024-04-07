@@ -25,7 +25,6 @@ class Demo
         k=30;
     }
     friend class Hello;
-    
 };
 
 void Hello::fun()
