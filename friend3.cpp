@@ -7,7 +7,6 @@ class Hello
     void fun();
     void gun();
 };
-
 class Demo
 {
     public:
@@ -26,7 +25,6 @@ class Demo
     }
     friend class Hello;
 };
-
 void Hello::fun()
 {
      Demo obj;
@@ -34,7 +32,6 @@ void Hello::fun()
    cout<<obj.j<<"\n";
    cout<<obj.k<<"\n";
 }
-
 void Hello::gun()
 {
     Demo obj;
