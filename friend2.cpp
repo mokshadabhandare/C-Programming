@@ -6,7 +6,6 @@ class Hello
     public:
     void fun();
 };
-
 class Demo
 {
     public:
@@ -25,7 +24,6 @@ class Demo
     }
     friend void Hello::fun();
 };
-
 void Hello::fun()
 {
     Demo obj;
@@ -37,6 +35,5 @@ int main()
 {
     Hello hobj;
     hobj.fun();
-
     return 0;
 }
