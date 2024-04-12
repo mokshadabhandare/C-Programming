@@ -10,5 +10,11 @@ class ArrayDemoLoops
             System.out.println(Arr[i]);
         }
        
+       i=0;
+       while(i<Arr.length)
+       {
+        System.out.println(Arr[i]);
+        i++;
+       }
     }
 }
