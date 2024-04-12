@@ -1,17 +1,17 @@
 class OOP
 {
-    public static void main (String Arg[])
+    public static void main(String Arg[])
     {
-        Arithematic obj1=new Arithematic();
-        Arithematic obj2=new Arithematic(21,11);
+        Arithematic obj1 = new Arithematic();
+        Arithematic obj2 = new Arithematic(21,11);
 
-        int ret=0;
-
-        ret=obj2.Addition();
-        System.out.println(ret);
-
-        ret=obj2.Substraction();
-        System.out.println(ret);
+        int Ret = 0;
+        
+        Ret = obj2.Addition();
+        System.out.println(Ret);        // 32
+        
+        Ret = obj2.Substraction();
+        System.out.println(Ret);        // 10
     }
 }
 
@@ -22,26 +22,27 @@ class Arithematic
 
     public Arithematic()
     {
-        System.out.println("Inside Default Constructor");
-        this.No1=0;
-        this.No2=0;
+        System.out.println("Inside Default constructor");
+        this.No1 = 0;
+        this.No2 = 0;
     }
-    public Arithematic(int A,int B)
+    public Arithematic(int A, int B)
     {
-        System.out.println("Inside Parameterized Constructor");
-        this.No1=A;
-        this.No2=B;
+        System.out.println("Inside Parametrised constructor");        
+        this.No1 = A;
+        this.No2 = B;
     }
-    public Addition()
+    public int Addition()
     {
-        int Ans=0;
-        Ans=No1+No2;
+        int Ans = 0;
+        Ans = No1 + No2;
         return Ans;
     }
-    public Substraction()
+    public int Substraction()
     {
-        int Ans=0;
-        Ans=No1-No2;
+        int Ans = 0;
+        Ans = No1 - No2;
         return Ans;
     }
+
 }
