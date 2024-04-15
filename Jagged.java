@@ -22,7 +22,7 @@ class Jagged
         Arr[2][3]=19;
         Arr[2][4]=20;
 
-        int i=0,j=0;
+       
 
         for(i=0;i<Arr.length;i++)
         {
