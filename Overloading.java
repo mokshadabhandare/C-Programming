@@ -12,6 +12,11 @@ class Demo
     {
         return A+B;
     }
+    public void Fun(int A,double B)
+    {}
+     public void Fun(double A,int B)
+    {}
+
 }
 
 class Overloading
@@ -28,7 +33,7 @@ class Overloading
        iRet=dobj.Addition(10,20,30);
        System.out.println(iRet);
 
-       dRet=dobj.Addition(10.0,20.0)
+       dRet=dobj.Addition(10.0,20.0);
        System.out.println(dRet);
     }
 }
