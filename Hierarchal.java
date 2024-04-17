@@ -35,7 +35,7 @@ class DerivedX extends Base
         System.out.println("Inside DerivedX sun");
     }
 }
-class Multilevel
+class Hierarchal
 {
     public static void main(String Arg[])
     {
