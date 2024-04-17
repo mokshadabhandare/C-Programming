@@ -28,6 +28,8 @@ class single
 {
     public static void main(String Arg[])
     {
-
+       Derived dobj=new Derived();
+       dobj.fun();
+       dobj.Gun();
     }
 }
