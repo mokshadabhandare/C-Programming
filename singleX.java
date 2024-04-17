@@ -28,9 +28,9 @@ class singleX
 {
     public static void main(String Arg[])
     {
-      Base bobj=new Base();
-      Derived dobj=new Derived();
-      Base bobj2=new Derived();
-      Derived dobj=new Base();
+      Base bobj=new Base();  //Nocasting
+      Derived dobj=new Derived();  //Nocasting
+      Base bobj2=new Derived();    //Upcasting (A)
+      Derived dobj2=new Base();  //Downcasting (NA)
     }
 }
