@@ -5,7 +5,7 @@ class Base
     {
         System.out.println("Base constructor");
     }
-    void fun()
+   public void fun()
     {
         System.out.println("Inside Base Fun");
     }
@@ -14,7 +14,7 @@ class Base
 class Derived extends Base
 {
     public int X,Y;
-    Public Derived()
+    public Derived()
     {
         System.out.println("Derived constructor");
     }
