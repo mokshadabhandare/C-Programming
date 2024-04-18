@@ -1,19 +1,19 @@
 class Base
 {
     public int A,B;
-   public void fun()
+   public void Fun()
     {
         System.out.println("Inside Base Fun");
     }
-    public void gun()
+    public void Gun()
     {
         System.out.println("Inside Base gun");
     }
-    public void sun()
+    public void Sun()
     {
         System.out.println("Inside Base sun");
     }
-    public void run()
+    public void Run()
     {
         System.out.println("Inside Base run");
     }
@@ -25,13 +25,25 @@ class Derived extends Base
     {
         System.out.println("Inside derived gun");
     }
+    public void Run()
+    {
+        System.out.println("Inside Base Fun");
+    }
+    public void Mun()
+    {
+        System.out.println("Inside Base Fun");
+    }
 }
 class RMD
 {
     public static void main(String Arg[])
     {
-       Derived dobj=new Derived();
-       dobj.fun();
-       dobj.Gun();
+       Base bobj=new Derived();
+       bobj.Fun();
+       bobj.Gun();
+       bobj.Sun();
+       bobj.Run();
+       bobj.Mun();
+
     }
 }
