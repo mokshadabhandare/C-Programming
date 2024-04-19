@@ -12,6 +12,6 @@ class PPA
        System.out.println(aobj.Substraction(11,10));
 
        System.out.println(mobj.Multiplication(11,10));
-       System.out.println(mobj.Divison(11,10));
+       System.out.println(mobj.Divison(110,11));
     }
 }
