@@ -43,6 +43,7 @@ class RMD
        bobj.Gun();
        bobj.Sun();
        bobj.Run();
+       
        bobj.Mun();
 
     }
