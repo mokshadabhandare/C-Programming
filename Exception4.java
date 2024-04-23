@@ -22,4 +22,7 @@ class Exception3
         }
         finally
         {
-            System.out.println("Inside finally block
+            System.out.println("Inside finally block");
+        }
+    }
+}
