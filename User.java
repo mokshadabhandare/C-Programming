@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 class AgeInvalid extends Exception
@@ -10,7 +9,8 @@ class User
 {
     public static void main(String Arg[])
     {
-        try{
+        try
+        {
         Scanner sobj=new Scanner(System.in);
     
         System.out.println("Please enter your age:");
@@ -19,6 +19,10 @@ class User
         if(Age<18)
         {
             throw new AgeInvalid();
+        }
+        else
+        {
+            System.out.println("you succesfully loged in on site");
         }
         }
         catch(AgeInvalid obj)
