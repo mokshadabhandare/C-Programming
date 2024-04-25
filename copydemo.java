@@ -1,4 +1,4 @@
-class Student
+class Student implements Cloneable
 {
     public String Name;
     public int Marks;
@@ -10,15 +10,28 @@ class Student
         this.Marks=A;
         this.Age=B;
     }
+    public Object clone() throws CloneNotSupportedException
+    {
+        return super.clone();
+    }
 }
 
 class copydemo
 {
     public static void main(String Arg[])
     {
+        try{
         Student sobj=new Student("Amit",87,25);
         System.out.println("Name of student:"+sobj.Name);
         System.out.println("Marks of student:"+sobj.Marks);
         System.out.println("Age of student:"+sobj.Age);
+
+        Student sobjX=(Student)sobj.clone();
+        System.out.println("Name of student:"+sobjX.Name);
+        System.out.println("Marks of student:"+sobjX.Marks);
+        System.out.println("Age of student:"+sobjX.Age);
+        }
+        catch(Exception obj)
+        {}
     }
 }
