@@ -4,13 +4,15 @@ class Base
     public Base()
     {
         System.out.println("Inside base constructor");
+        this.A=10;
+        this.B=20;
     }
     public void fun()
     {
         System.out.println("Inside fun of base");
     }
 }
-class Derived public Base
+class Derived extends Base
 {
     public int X,Y;
     public Derived(int i,int j)
@@ -28,6 +30,7 @@ class Derived public Base
         System.out.println("Value of X:"+this.X);
     }
 }
+
 class keyword
 {
     public static void main(String Arg[])
