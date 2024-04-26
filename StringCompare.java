@@ -11,5 +11,13 @@ class StringCompare
         {
             System.out.println("s1 and s4 are same");
         }
+        if(s1==s3)
+        {
+            System.out.println("s1 and s3 are same");
+        }
+        if(s1.equals(s3))
+        {
+            System.out.println("s1 and s3 are same using equals methos");
+        }
     }
 }
