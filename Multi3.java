@@ -23,6 +23,3 @@ class Multi3
 
        obj1.start();
        obj2.start();
-
-    }
-}
