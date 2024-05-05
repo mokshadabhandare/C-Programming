@@ -1,4 +1,4 @@
-import java.sql.*;          // 1
+import java.sql.*;          
 
 class Database
 {
