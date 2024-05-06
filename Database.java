@@ -15,6 +15,4 @@ class Database
             System.out.println("RNO : "+robj.getInt("rno"));
             System.out.println("Name : "+robj.getString("name"));
             System.out.println("City : "+robj.getString("City"));
-        }
-    }
-}
+        
