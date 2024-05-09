@@ -11,7 +11,7 @@ class Server
        System.out.println("Server is waiting for client...");
 
        Socket sobj=ssobj.accept();
-       System.out.println("client get sucessfully connected...");
+       System.out.println("Server get sucessfully connected...");
 
        PrintStream ps=new PrintStream(sobj.getOutputStream());
        BufferedReader br1=new BufferedReader(new InputStream(sobj.getInputStream()));
