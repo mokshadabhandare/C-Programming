@@ -15,10 +15,12 @@ namespace PPA
 
     };
 }
+
+using namespace Marvellous;
 int main()
 {
     std::cout<<"Inside main\n";
-   Marvellous ::Demo dobj;
+   Demo dobj;
    PPA::Hello hobj;
     return 0;
 }
