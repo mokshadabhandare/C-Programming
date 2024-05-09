@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+
 
 namespace Marvellous
 {
@@ -17,6 +17,8 @@ namespace PPA
 }
 int main()
 {
-
+    std::cout<<"Inside main\n";
+   Marvellous ::Demo dobj;
+   PPA::Hello hobj;
     return 0;
 }
